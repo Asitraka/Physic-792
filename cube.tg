@@ -1,0 +1,31 @@
+:volu box BOX 30*cm 30*cm 30*cm G4_AIR
+
+:solid box1 BOX 21*cm 21*cm 21*cm
+:solid inner1 BOX 25*cm 23*cm 23*cm
+:solid inner2 BOX 23*cm 27*cm 23*cm
+:solid inner3 BOX 22*cm 22*cm 27*cm
+:solid box2 SUBTRACTION box1 inner1  r000 0 0 0
+:solid box3 SUBTRACTION box2 inner2 r000 0 0 0
+:solid base SUBTRACTION box3 inner3 r000 0 0 0
+:volu base base G4_AIR
+:volu inner1 inner1 G4_AIR
+:volu inner2 inner2 G4_AIR
+:volu inner3 inner3 G4_AIR
+
+:color base 0.2 0.2 0.2
+:color inner1 0.2 0.2 0.2
+:color inner2 0.2 0.2 0.2
+:color inner3 0.2 0.2 0.2
+
+:vis base ON
+:vis inner1 ON
+:vis inner2 ON
+:vis inner3 ON
+:vis box OFF
+
+:rotm r000 0 0 0
+:place base 1 box r000 0 0 0 
+:place inner1 1 box r000 0 0 0 
+:place inner2 1 box r000 0 0 0 
+:place inner3 1 box r000 0 0 0 
+
