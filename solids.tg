@@ -1,0 +1,82 @@
+:volu hall BOX 5*m 5*m 5*m G4_AIR
+:rotm r000 0 0 0
+:color hall 0.2 0.4 0.8
+
+
+:volu box BOX 50*cm 50*cm 50*cm G4_AIR
+:place box 1 hall r000 420*cm 420*cm 420*cm
+:color box 0.7 0.4 0.8
+:vis box ON
+
+:volu tub TUBS 20*cm 60*cm 50*cm 0 360  G4_AIR
+:place tub 1 hall r000 -400*cm -400*cm -400*cm
+:color tub 0.6 0.4 0.8
+:vis tub ON
+
+:volu cons CONS 20*cm 30*cm 40*cm 50*cm 45*cm 0 360  G4_AIR
+:place cons 1 hall r000 -420*cm 400*cm 400*cm
+:color cons 1.2 0.2 0.2
+:vis cons ON
+
+:volu trp TRD 50*cm 20*cm 40*cm 20*cm 50*cm G4_AIR
+:place trp 1 hall r000 -420*cm 400*cm 200*cm
+  :color trp 1 0.4 0.8
+:vis trp ON
+
+:volu para PARA 50*cm 40*cm 50*cm 30 30 30 G4_AIR
+:place para 1 hall r000 200*cm 200*cm 200*cm
+:color para 0.2 0.4 0.8
+:vis para ON
+
+:volu trap TRAP 10*cm 4*cm 10*cm 3*cm G4_AIR
+:place trap 1 hall r000 0*cm -100*cm 100*cm
+:color trap 0.2 0.4 0.8
+:vis trap ON
+
+:volu sphere SPHERE 20*cm 50*cm 0 360 0 360 G4_AIR
+:place sphere 1 hall r000 200*cm 200*cm -400*cm
+:color sphere 0.2 0.4 0.8
+:vis sphere ON
+
+:volu torus TORUS 20*cm 50*cm 60*cm 0 360 G4_AIR
+:place torus 1 hall r000 0*cm 0*cm 0*cm
+:color torus 0.2 0.4 1
+:vis torus ON
+
+:volu polycone POLYCONE 2 360 2
+200 300 350
+100 300 350
+G4_AIR
+:place polycone 1 hall r000 0*cm -300*cm 400*cm
+:color polycone 1.2 0.2 0.8
+:vis polycone ON
+
+:volu polyhedra POLYHEDRA 0 180 2 2
+400 3
+400 3
+G4_AIR
+:place polyhedra 1 hall r000 400*cm -200*cm 200*cm
+:color polyhedra 0.2 0.4 0.8
+:vis polyhedra ON
+
+:volu ellipt ELLIPTICALTUBE 50*cm 50*cm 50*cm G4_AIR
+:place ellipt 1 hall r000 0*cm 300*cm 300*cm
+:color ellipt 0.2 0.4 1.2
+:vis ellipt ON
+
+:volu ellips ELLIPSOID 50*cm 50*cm 50*cm -30*cm 30*cm G4_AIR
+:place ellips 1 hall r000 300*cm 0*cm 0*cm
+:color ellips 0.2 0.4 0.8
+:vis ellips ON
+
+:volu ellipc ELLIPTICALCONE 4*cm 4*cm 4*cm 3*cm G4_AIR
+:place ellipc 1 hall r000 -100*cm 200*cm -300*cm
+:color ellipc 0.6 0.2 0.8
+:vis ellipc ON
+
+:volu hyp HYPE 30*cm 50*cm 40 180 30*cm G4_AIR
+:place hyp 1 hall r000 400*cm -400*cm -400*cm
+:color hyp 0.2 0.4 0.8
+:vis hyp ON
+
+:vis hall ON
