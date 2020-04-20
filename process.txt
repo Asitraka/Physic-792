@@ -1,0 +1,8 @@
+- Alpha to Air : initStep, Transportation, ionIoni, eIoni
+- Beta to Air : initStep, Transportation,  eIoni
+- Gamma to Air : initStep, Transportation
+
+-- initStep : says that the particle is in the initial position. It s not a physics phenomenon
+-- Transportation : says that the particle is moving. It s not a physics phenomenon
+-- eIoni: describes ionization by electron. After that phenomenon the initial atom or molecule will have positive or negative charge. So that means the atom or molecule is getting an electron or losing electron. 
+-- ionIoni : describes ionization by ion. 
